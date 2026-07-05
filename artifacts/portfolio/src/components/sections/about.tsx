@@ -45,14 +45,14 @@ export function About() {
               I'm a passionate web developer who recently graduated with a BSc in Computer Science from Mumbai University. Based out of Thane, Maharashtra, I'm on a mission to write code that doesn't just work — it performs, scales, and looks stunning.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed mb-10">
-              Every project I touch is an opportunity to sharpen my craft. I care deeply about the intersection of design and engineering — where clean architecture meets pixel-perfect interfaces. My goal is simple: land a role at a great MNC where I can grow fast and ship great products.
+              Every project I touch is an opportunity to sharpen my craft. I care deeply about the intersection of design and engineering — where clean architecture meets pixel-perfect interfaces. My goal is to contribute to meaningful projects, continuously improve my skills, and grow as a professional web developer.
             </p>
 
             <div className="space-y-4">
               {[
                 { icon: MapPin, label: "Location", value: "Thane, Maharashtra, India" },
                 { icon: GraduationCap, label: "Education", value: "BSc Computer Science — Mumbai University, 2024" },
-                { icon: Target, label: "Goal", value: "Web Developer at a Top MNC" },
+                { icon: Target, label: "Goal", value: "Seeking opportunities to learn, grow, and contribute as a Web Developer" },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-center gap-4" data-testid={`about-${label.toLowerCase()}`}>
                   <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center">
@@ -110,7 +110,7 @@ export function About() {
               <p className="font-mono text-secondary text-sm mb-1">const suraj = &#123;</p>
               <p className="font-mono text-muted-foreground text-sm pl-4">available: <span className="text-green-400">true</span>,</p>
               <p className="font-mono text-muted-foreground text-sm pl-4">location: <span className="text-yellow-400">"Thane, India"</span>,</p>
-              <p className="font-mono text-muted-foreground text-sm pl-4">openTo: <span className="text-yellow-400">"MNC Web Dev roles"</span></p>
+              <p className="font-mono text-muted-foreground text-sm pl-4">openTo: <span className="text-yellow-400">"Frontend & Web Developer roles"</span></p>
               <p className="font-mono text-secondary text-sm">&#125;</p>
             </motion.div>
           </motion.div>
