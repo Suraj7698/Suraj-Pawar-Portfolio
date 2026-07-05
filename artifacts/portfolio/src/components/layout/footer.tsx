@@ -9,9 +9,9 @@ const navLinks = [
 ];
 
 const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
+  { icon: Github, href: "https://github.com/Suraj7698", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/surajpawar6621/", label: "LinkedIn" },
+  { icon: Twitter, href: "https://x.com/surajpawar6621", label: "Twitter" },
 ];
 
 export function Footer() {
