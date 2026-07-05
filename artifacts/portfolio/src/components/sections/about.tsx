@@ -52,7 +52,7 @@ export function About() {
               {[
                 { icon: MapPin, label: "Location", value: "Thane, Maharashtra, India" },
                 { icon: GraduationCap, label: "Education", value: "BSc Computer Science — Mumbai University, 2024" },
-                { icon: Target, label: "Goal", value: "Seeking opportunities to learn, grow, and contribute as a Web Developer" },
+                { icon: Target, label: "Goal", value: "Build impactful web applications and grow as a developer" },
               ].map(({ icon: Icon, label, value }) => (
                 <div key={label} className="flex items-center gap-4" data-testid={`about-${label.toLowerCase()}`}>
                   <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-primary/10 border border-primary/20 flex items-center justify-center">
