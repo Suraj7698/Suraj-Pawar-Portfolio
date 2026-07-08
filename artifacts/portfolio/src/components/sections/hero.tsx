@@ -94,7 +94,9 @@ export function Hero() {
             </a>
           </Button>
           <Button size="lg" variant="outline" className="h-14 px-8 text-base border-muted-foreground/30 hover:bg-muted/50" data-testid="button-download-resume" asChild>
-            <a href="#">
+            <a href="/Suraj_Pawar_Resume.pdf" download
+               target="_blank"
+               rel="noopener noreferrer">
               <Download className="mr-2 h-4 w-4" />
               Download Resume
             </a>
