@@ -62,7 +62,7 @@ export function Footer() {
                 </a>
               ))}
             </div>
-            <p className="text-xs text-muted-foreground mt-4 font-mono">surajpawar@example.com</p>
+            <p className="text-xs text-muted-foreground mt-4 font-mono">surajpawar6621@gmail.com</p>
           </div>
         </div>
 
