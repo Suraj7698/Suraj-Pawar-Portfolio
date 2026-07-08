@@ -144,8 +144,8 @@ const handleSubmit = async (e: React.FormEvent) => {
                 className="h-full flex flex-col items-center justify-center text-center p-10 rounded-2xl bg-card border border-primary/30"
               >
                 <CheckCircle className="h-16 w-16 text-primary mb-6" />
-                <h3 className="text-2xl font-bold mb-3">Message Sent!</h3>
-                <p className="text-muted-foreground">Thanks for reaching out. I'll get back to you within 24 hours.</p>
+                <h3 className="text-2xl font-bold mb-3">Message Sent Successfully!</h3>
+                <p className="text-muted-foreground">Thank you for reaching out. Your message has been sent successfully. I'll get back to you as soon as possible.</p>
               </motion.div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-5 p-8 rounded-2xl bg-card border border-border" data-testid="contact-form">
