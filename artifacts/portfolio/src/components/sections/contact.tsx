@@ -20,9 +20,9 @@ export function Contact() {
   };
 
   const socials = [
-    { icon: Github, label: "GitHub", href: "#", handle: "@surajpawar" },
-    { icon: Linkedin, label: "LinkedIn", href: "#", handle: "suraj-pawar" },
-    { icon: Twitter, label: "Twitter", href: "#", handle: "@surajpawar_dev" },
+    { icon: Github, label: "GitHub", href: "https://github.com/Suraj7698", handle: "@Suraj7698" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/surajpawar6621/", handle: "surajpawar6621" },
+    { icon: Twitter, label: "Twitter", href: "https://x.com/surajpawar6621", handle: "@surajpawar6621" },
   ];
 
   return (
@@ -55,7 +55,7 @@ export function Contact() {
           >
             <div className="space-y-5">
               {[
-                { icon: Mail, label: "Email", value: "surajpawar@example.com", href: "mailto:surajpawar@example.com" },
+                { icon: Mail, label: "Email", value: "surajpawar6621@gmail.com", href: "mailto:surajpawar6621@gmail.com" },
                 { icon: MapPin, label: "Location", value: "Thane, Maharashtra, India", href: "#" },
               ].map(({ icon: Icon, label, value, href }) => (
                 <a
@@ -82,6 +82,8 @@ export function Contact() {
                   <a
                     key={label}
                     href={href}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group flex items-center gap-4 p-3 rounded-lg hover:bg-muted/50 transition-colors"
                     data-testid={`contact-social-${label.toLowerCase()}`}
                   >
