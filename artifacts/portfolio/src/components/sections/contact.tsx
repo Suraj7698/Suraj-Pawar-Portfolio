@@ -50,6 +50,10 @@ const handleSubmit = async (e: React.FormEvent) => {
   } catch (error) {
     alert("Something went wrong. Please try again.");
   }
+    // Show success message for 5 seconds
+  setTimeout(() => {
+    setSubmitted(false);
+  }, 5000);
 };
 
   const socials = [
