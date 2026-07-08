@@ -35,17 +35,6 @@ const timeline = [
     tags: ["freeCodeCamp", "TypeScript", "React", "System Design"],
     color: "accent",
   },
-  {
-    icon: Award,
-    type: "achievement",
-    title: "Higher Secondary Certificate (HSC)",
-    org: "Maharashtra State Board",
-    period: "2021",
-    location: "Thane, Maharashtra",
-    description: "Completed HSC with Computer Science as a core subject. Developed early interest in programming through C++ and basic web development courses.",
-    tags: ["C++", "Computer Science", "Mathematics"],
-    color: "primary",
-  },
 ];
 
 const colorMap: Record<string, string> = {
