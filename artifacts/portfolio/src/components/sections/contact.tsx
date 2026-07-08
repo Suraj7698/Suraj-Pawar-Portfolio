@@ -14,10 +14,43 @@ export function Contact() {
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
-  };
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify({
+        access_key: "77439e8d-7c14-4eb1-9ad0-65e448ca4b68",
+        name: form.name,
+        email: form.email,
+        subject: form.subject,
+        message: form.message,
+      }),
+    });
+
+    const result = await response.json();
+
+    if (result.success) {
+      setSubmitted(true);
+
+      setForm({
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    } else {
+      alert("Failed to send message. Please try again.");
+    }
+  } catch (error) {
+    alert("Something went wrong. Please try again.");
+  }
+};
 
   const socials = [
     { icon: Github, label: "GitHub", href: "https://github.com/Suraj7698", handle: "@Suraj7698" },
