@@ -24,7 +24,7 @@ export function Footer() {
               Suraj<span className="text-primary">.dev</span>
             </a>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Building clean, fast, and beautiful web experiences. Open to opportunities at top MNCs.
+              Building clean, fast, and beautiful web experiences. Open to frontend and web development opportunities.
             </p>
           </div>
 
