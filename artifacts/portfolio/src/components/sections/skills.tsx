@@ -29,7 +29,7 @@ const skillCategories = [
     skills: [
       { name: "Git", icon: SiGit, level: 75, color: "#F05032" },
       { name: "GitHub", icon: SiGithub, level: 75, color: "#ffffff" },
-      { name: "Figma", icon: SiFigma, level: 55, color: "#F24E1E" },
+      // { name: "Figma", icon: SiFigma, level: 55, color: "#F24E1E" },
     ],
   },
 ];
