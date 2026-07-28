@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
-import { SiReact, SiNodedotjs, SiMongodb, SiTypescript, SiTailwindcss, SiExpress, SiGit, SiHtml5, SiJavascript, SiGithub, SiFigmaSiVisualstudiocode,
-  SiVercel} from "react-icons/si";
+import { SiReact, SiNodedotjs, SiMongodb, SiTypescript, SiTailwindcss, SiExpress, SiGit, SiHtml5, SiJavascript, SiGithub, SiFigmaSiVisualstudiocode, SiVercel} from "react-icons/si";
 
 const skillCategories = [
   {
