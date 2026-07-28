@@ -11,7 +11,7 @@ const skillCategories = [
       { name: "JavaScript", icon: SiJavascript, level: 80, color: "#F7DF1E" },
       { name: "TypeScript", icon: SiTypescript, level: 65, color: "#3178C6" },
       { name: "React", icon: SiReact, level: 75, color: "#61DAFB" },
-      { name: "Tailwind CSS", icon: SiTailwindcss, level: 80, color: "#06B6D4" },
+      // { name: "Tailwind CSS", icon: SiTailwindcss, level: 80, color: "#06B6D4" },
     ],
   },
   // {
