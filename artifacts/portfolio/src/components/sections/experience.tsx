@@ -1,3 +1,4 @@
+console.log("Experience component loaded");
 import { motion } from "framer-motion";
 import { GraduationCap, BookOpen } from "lucide-react";
 
