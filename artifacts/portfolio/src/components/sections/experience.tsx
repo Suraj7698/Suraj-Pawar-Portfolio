@@ -31,7 +31,7 @@ const timeline = [
     org: "Online Platforms",
     period: "2022 — Present",
     location: "Remote",
-    description: "Continuously upskilling through platforms like freeCodeCamp, The Odin Project, and official documentation. Dedicated 500+ hours to mastering the MERN stack and modern frontend tooling.",
+    description: "description:Completed my degree with a focus on web technologies, data structures, algorithms, database management systems, and software engineering. Built academic projects to strengthen my understanding of frontend web development and programming fundamentals.",
     tags: ["freeCodeCamp", "TypeScript", "React", "System Design"],
     color: "accent",
   },
