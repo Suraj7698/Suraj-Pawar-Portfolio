@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { GraduationCap, Code2, BookOpen, Award } from "lucide-react";
+import { GraduationCap, BookOpen } from "lucide-react";
 
 const timeline = [
   {
@@ -9,30 +9,28 @@ const timeline = [
     org: "Mumbai University",
     period: "2021 — 2024",
     location: "Mumbai, Maharashtra",
-    description: "Completed my degree with a focus on web technologies, data structures, algorithms, and software engineering. Built several academic projects using modern JavaScript frameworks.",
-    tags: ["Data Structures", "Algorithms", "DBMS", "Web Tech", "OS"],
+    description:
+      "Completed my Bachelor's degree in Computer Science with a focus on web technologies, data structures, algorithms, database management systems, operating systems, and software engineering. Built academic projects to strengthen my understanding of frontend web development and programming fundamentals.",
+    tags: ["Data Structures", "Algorithms", "DBMS", "Web Technologies", "Operating Systems"],
     color: "primary",
   },
-  // {
-  //   icon: Code2,
-  //   type: "project",
-  //   title: "Freelance Web Projects",
-  //   org: "Self-Employed",
-  //   period: "2023 — Present",
-  //   location: "Thane, Maharashtra",
-  //   description: "Designed and developed websites for local businesses and friends — gaining real-world experience in client communication, deadline management, and deploying production applications.",
-  //   tags: ["React", "Node.js", "MongoDB", "Deployment", "Client Comms"],
-  //   color: "secondary",
-  // },
   {
     icon: BookOpen,
     type: "learning",
     title: "Self-Directed Learning",
-    org: "Online Platforms",
+    org: "Online Learning",
     period: "2022 — Present",
     location: "Remote",
-    description: "description:Completed my degree with a focus on web technologies, data structures, algorithms, database management systems, and software engineering. Built academic projects to strengthen my understanding of frontend web development and programming fundamentals.",
-    tags: ["freeCodeCamp", "TypeScript", "React", "System Design"],
+    description:
+      "Continuously improving my frontend development skills through online courses, documentation, and hands-on projects. Focused on HTML, CSS, JavaScript, Git, GitHub, responsive web design, and modern development tools.",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "GitHub",
+      "Responsive Design",
+    ],
     color: "accent",
   },
 ];
@@ -60,7 +58,10 @@ export function Experience() {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <p className="text-primary font-mono text-sm tracking-widest uppercase mb-3">// 04. experience</p>
+          <p className="text-primary font-mono text-sm tracking-widest uppercase mb-3">
+            // 04. journey
+          </p>
+
           <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight">
             Journey So Far
           </h2>
@@ -80,9 +81,12 @@ export function Experience() {
                 className="relative pl-20"
                 data-testid={`timeline-item-${i}`}
               >
-                <div className={`absolute left-4 top-6 w-8 h-8 rounded-full border-2 flex items-center justify-center shadow-lg ${colorMap[item.color]}`}>
+                <div
+                  className={`absolute left-4 top-6 w-8 h-8 rounded-full border-2 flex items-center justify-center shadow-lg ${colorMap[item.color]}`}
+                >
                   <item.icon className="h-4 w-4" />
                 </div>
+
                 <div
                   className={`absolute left-[30px] top-10 w-2 h-2 rounded-full shadow-[0_0_8px_2px] ${dotColorMap[item.color]}`}
                   style={{ boxShadow: undefined }}
@@ -90,18 +94,30 @@ export function Experience() {
 
                 <div className="group relative p-6 rounded-xl bg-card border border-border hover:border-primary/30 transition-all duration-300">
                   <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-primary/3 to-secondary/3 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+
                   <div className="relative">
                     <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-2 mb-3">
                       <div>
                         <h3 className="font-bold text-lg">{item.title}</h3>
-                        <p className="text-primary font-medium text-sm">{item.org}</p>
+                        <p className="text-primary font-medium text-sm">
+                          {item.org}
+                        </p>
                       </div>
+
                       <div className="text-right flex-shrink-0">
-                        <p className="text-xs font-mono text-muted-foreground">{item.period}</p>
-                        <p className="text-xs text-muted-foreground">{item.location}</p>
+                        <p className="text-xs font-mono text-muted-foreground">
+                          {item.period}
+                        </p>
+                        <p className="text-xs text-muted-foreground">
+                          {item.location}
+                        </p>
                       </div>
                     </div>
-                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">{item.description}</p>
+
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                      {item.description}
+                    </p>
+
                     <div className="flex flex-wrap gap-2">
                       {item.tags.map((tag) => (
                         <span
