@@ -14,15 +14,15 @@ const skillCategories = [
       { name: "Tailwind CSS", icon: SiTailwindcss, level: 80, color: "#06B6D4" },
     ],
   },
-  {
-    title: "Backend",
-    color: "secondary",
-    skills: [
-      { name: "Node.js", icon: SiNodedotjs, level: 70, color: "#339933" },
-      { name: "Express.js", icon: SiExpress, level: 65, color: "#ffffff" },
-      { name: "MongoDB", icon: SiMongodb, level: 60, color: "#47A248" },
-    ],
-  },
+  // {
+  //   title: "Backend",
+  //   color: "secondary",
+  //   skills: [
+  //     { name: "Node.js", icon: SiNodedotjs, level: 70, color: "#339933" },
+  //     { name: "Express.js", icon: SiExpress, level: 65, color: "#ffffff" },
+  //     { name: "MongoDB", icon: SiMongodb, level: 60, color: "#47A248" },
+  //   ],
+  // },
   {
     title: "Tools",
     color: "accent",
