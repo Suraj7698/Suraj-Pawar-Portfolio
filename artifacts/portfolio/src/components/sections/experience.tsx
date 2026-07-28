@@ -63,7 +63,9 @@ export function Experience() {
             // 04. journey
           </p>
 
-          <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-red-500">TEST 123</h2>
+          <h2 className="text-4xl md:text-5xl font-extrabold tracking-tight text-red-500">
+            Journey So Far
+          </h2>
         </motion.div>
 
         <div className="relative">
